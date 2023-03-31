@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Mrigank's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="https://as1.ftcdn.net/v2/jpg/02/93/71/54/1000_F_293715456_oOKPLip21HCEmL6x6fLUKkFj5V6RyS9d.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="https://www.kindpng.com/picc/m/0-3263_dance-black-and-white-png-dance-logo-black.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="https://previews.123rf.com/images/gaydarova/gaydarova2002/gaydarova200200070/142919851-black-silhouette-of-a-dancing-man-on-white-background-a-male-street-dance-hip-hop-dancer-vector-isol.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe
+    
+    section#sponsorsSection
+            h2 Our Sponsors
+            div#sponsors
+                img(src="https://www.transparentpng.com/thumb/apple-logo/ZA6SCV-apple-logo-photos.png", alt="Sponsor Image",class="spImage", id="img1")
+                img(src="https://www.nowmd.com/wp-content/uploads/Microsoft-Logo.png", alt="Sponsor Image",class="spImage")
+                img(src="https://cdn.freebiesupply.com/images/large/2x/hewlett-packard-logo-png-transparent.png", alt="Sponsor Image",class="spImage")
+                img(src="https://icon2.cleanpng.com/20171220/vfq/skype-logo-png-5a3a1a14d806c0.04111790151375720488499041.jpg", alt="Sponsor Image",class="spImage")
